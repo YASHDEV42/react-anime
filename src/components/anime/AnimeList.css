@@ -1,0 +1,164 @@
+/*
+#0A8393
+#CEE7EC
+#0C0032
+*/
+
+::placeholder {
+  color: #fff;
+}
+.anime-list {
+  position: relative;
+}
+.anime-list .scroll {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #fff;
+  position: fixed;
+  left: 95%;
+  top: 90%;
+  outline: none;
+  border: none;
+  animation-name: scrollUp;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.anime-list .scroll:last-of-type {
+  left: 95%;
+  top: 80%;
+  animation-name: scrollDown;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 0 auto;
+}
+.fillter-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+  height: 10vh;
+  margin: 20px auto;
+  padding: 30px 0;
+  background-color: #0c0032;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  animation-name: slideRight;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  border: 2px solid #0a8393;
+}
+.fillter-box .fillters button {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  margin: 0 5px;
+  background-color: #0a8393;
+  border: 2px solid #0a8393;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  animation-name: slideTop;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+}
+.fillter-box .fillters button:hover {
+  letter-spacing: 1.5px;
+  background-color: #cee7ec;
+  border: 2px solid #0a8393;
+  color: #0a8393;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+  transform: translate(0, -10px);
+}
+
+.fillter-box .search-box form button:last-of-type {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  margin: 0;
+  background-color: #cee7ec;
+  border: 2px solid #0a8393;
+  color: #0a8393;
+  animation-name: slideTop;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.fillter-box .search-box form button:last-of-type:hover {
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  background-color: #0a8393;
+  border: 2px solid #0a8393;
+  color: #fff;
+  box-shadow: none;
+  cursor: pointer;
+  transform: translate(0, 0);
+}
+.fillter-box .search-box form input {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  margin: 0 5px;
+  background-color: #0a8393;
+  border: 2px solid #0a8393;
+  color: #fff;
+  position: relative;
+  margin-right: 0;
+  animation-name: slideTop;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+  color: #fff;
+}
+
+@media screen and (max-width: 1050px) {
+  .fillter-box {
+    flex-direction: column;
+    height: 15vh;
+  }
+  .fillter-box .fillters button {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .fillter-box {
+    height: 10vh;
+  }
+  .fillter-box .fillters button {
+    display: none;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    opacity: 0;
+    transform: translate(0, 100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translate(-100px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

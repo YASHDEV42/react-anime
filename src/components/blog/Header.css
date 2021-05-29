@@ -1,0 +1,89 @@
+/*
+#0A8393
+#CEE7EC
+#0C0032
+*/
+.nav-bar {
+  background-color: #0c0032;
+  border-bottom: 2px solid #0a8393;
+  height: 8vh;
+}
+.nav-bar .Mcontainer {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-bar .Mcontainer .nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-light .navbar-brandy {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+.navbar-light .navbar-brandy:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0a8393;
+  color: #0c0032;
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-linky.active {
+  color: #0a8393;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-linky {
+  color: #fff;
+  height: 25px;
+  position: relative;
+  z-index: 10000;
+  transition: all 0.2s;
+  z-index: 10000;
+  overflow: hidden;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-linky:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 1px;
+  bottom: -3px;
+  width: 100%;
+  height: 4px;
+  background-color: #0a8393;
+  animation: slide-out 300ms ease-in-out forwards;
+}
+
+.navbar-light .navbar-nav .nav-linky:hover:after {
+  animation: slide-in 300ms;
+}
+
+.navbar-light .navbar-nav .nav-linky:hover {
+  color: #0a8393;
+  text-decoration: none;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: translate(100%, 0);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: none;
+  }
+}
