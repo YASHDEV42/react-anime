@@ -12,7 +12,7 @@ class Anime extends Component {
                 <div className="info">
                     <h2>{this.props.anime.name}</h2>
                     <span>#{this.props.anime.rank}</span>
-                    <br/>
+
                     {/*<button onClick={() => this.props.openModel(this.props.anime)}><a>more info</a></button>*/}
                     <button className="my-btn"><Link to={{
                     pathname:"/anime/" + this.props.anime.id,

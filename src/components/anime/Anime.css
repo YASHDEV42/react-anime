@@ -101,6 +101,19 @@
   color: #0a8393;
   font-weight: 600;
 }
+
+@media screen and (max-width: 375px) {
+  .anime {
+    margin: 51px 10px;
+  }
+  .anime .info span {
+    left: 217px;
+  }
+  .anime .info .my-btn {
+    margin-top: 5px;
+  }
+}
+
 @keyframes slideTop {
   0% {
     opacity: 0;

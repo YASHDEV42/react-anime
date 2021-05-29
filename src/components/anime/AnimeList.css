@@ -141,6 +141,17 @@
     display: none;
   }
 }
+@media screen and (max-width: 375px) {
+  .fillter-box .search-box form button:last-of-type {
+    display: none;
+  }
+  .anime-list .scroll {
+    display: none;
+  }
+  .anime-list .scroll:last-of-type {
+    display: none;
+  }
+}
 
 @keyframes slideTop {
   0% {

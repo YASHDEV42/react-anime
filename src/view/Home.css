@@ -190,6 +190,16 @@
 .test:last-of-type {
   background: linear-gradient(to bottom, #0a8393, #0c0032);
 }
+
+@media screen and (max-width: 375px) {
+  .head button {
+    display: none;
+  }
+  .head button:last-of-type {
+    display: none;
+  }
+}
+
 @keyframes slideRight {
   0% {
     opacity: 0;

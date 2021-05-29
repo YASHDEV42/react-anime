@@ -16,7 +16,6 @@ function Header() {
                 <NavLink className="nav-linky" exact to="/">Home</NavLink>
 
                 <NavLink className="nav-linky" to="/animeList">Anime</NavLink>
-                <NavLink className="nav-linky" to="/anime/add-anime">Add-anime</NavLink>
             </Nav>
         </Navbar.Collapse>
         </div>
