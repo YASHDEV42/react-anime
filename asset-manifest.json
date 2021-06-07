@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-anime/static/css/main.723b19ae.chunk.css",
-    "main.js": "/react-anime/static/js/main.da234519.chunk.js",
-    "main.js.map": "/react-anime/static/js/main.da234519.chunk.js.map",
+    "main.css": "/react-anime/static/css/main.bdec113a.chunk.css",
+    "main.js": "/react-anime/static/js/main.57360743.chunk.js",
+    "main.js.map": "/react-anime/static/js/main.57360743.chunk.js.map",
     "runtime-main.js": "/react-anime/static/js/runtime-main.be42df95.js",
     "runtime-main.js.map": "/react-anime/static/js/runtime-main.be42df95.js.map",
-    "static/js/2.7e11e953.chunk.js": "/react-anime/static/js/2.7e11e953.chunk.js",
-    "static/js/2.7e11e953.chunk.js.map": "/react-anime/static/js/2.7e11e953.chunk.js.map",
+    "static/js/2.6f2ac866.chunk.js": "/react-anime/static/js/2.6f2ac866.chunk.js",
+    "static/js/2.6f2ac866.chunk.js.map": "/react-anime/static/js/2.6f2ac866.chunk.js.map",
     "index.html": "/react-anime/index.html",
-    "static/css/main.723b19ae.chunk.css.map": "/react-anime/static/css/main.723b19ae.chunk.css.map",
-    "static/js/2.7e11e953.chunk.js.LICENSE.txt": "/react-anime/static/js/2.7e11e953.chunk.js.LICENSE.txt",
+    "static/css/main.bdec113a.chunk.css.map": "/react-anime/static/css/main.bdec113a.chunk.css.map",
+    "static/js/2.6f2ac866.chunk.js.LICENSE.txt": "/react-anime/static/js/2.6f2ac866.chunk.js.LICENSE.txt",
     "static/media/Academia.9895d29e.jpg": "/react-anime/static/media/Academia.9895d29e.jpg",
     "static/media/Another_poster.7858d778.jpg": "/react-anime/static/media/Another_poster.7858d778.jpg",
     "static/media/Jujutsu.8bc19ae2.jpg": "/react-anime/static/media/Jujutsu.8bc19ae2.jpg",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.be42df95.js",
-    "static/js/2.7e11e953.chunk.js",
-    "static/css/main.723b19ae.chunk.css",
-    "static/js/main.da234519.chunk.js"
+    "static/js/2.6f2ac866.chunk.js",
+    "static/css/main.bdec113a.chunk.css",
+    "static/js/main.57360743.chunk.js"
   ]
 }
